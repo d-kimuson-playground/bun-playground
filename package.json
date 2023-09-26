@@ -1,0 +1,19 @@
+{
+  "name": "bun-playground",
+  "module": "src/index.ts",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "dependencies": {
+    "sample": "workspace:*"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
